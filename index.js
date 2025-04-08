@@ -5,8 +5,17 @@ app.use(express.urlencoded({ extended: true }));
 const activities = require("./activities.json");
 
 
+
+/*
 app.get("/",function(req,res){
     res.sendFile(__dirname + "/index.html");
+});
+*/
+
+const coronaData = require("./coronaData.json");
+
+app.get("/", function (req, res) {
+    res.send(coronaData);
 });
 
 
