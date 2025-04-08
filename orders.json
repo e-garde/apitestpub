@@ -1,0 +1,32 @@
+  {
+    "meta": {
+      "total": 10,
+      "current": 1,
+      "next": "/v1/orders?startTime=1732784399&endTime=1732870800&page=2"
+    },
+    "orders": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174000",
+        "tenantId": "TENANT001",
+        "status": "Shipped",
+        "orderedAt": 1711363200,
+        "cardContent":
+        {
+          "layoutId": "789e4567-e89b-12d3-a456-426614174000",
+          "version": 1,
+          "displayName": "山田太郎",
+          "url": "https://example.com/cards/123"
+        },
+        "shippingAddress":
+        {
+            "id": "456e4567-e89b-12d3-a456-426614174000",
+            "company": "株式会社サンプル",
+            "department": "営業部",
+            "addressee": "山田太郎",
+            "address": "東京都渋谷区渋谷1-1-1",
+            "tel": "03-1234-5678"
+        }
+      }
+    ]
+  }
+    
