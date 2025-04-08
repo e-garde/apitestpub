@@ -15,7 +15,7 @@ app.get("/",function(req,res){
 //const coronaData = require("./coronaData.json");
 const orderData = require("./orders.json");
 
-app.get("/", function (req, res) {
+app.get("/orders", function (req, res) {
     //res.send(coronaData);
     res.send(orderData);
 });
