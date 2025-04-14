@@ -28,8 +28,8 @@ app.post("/autumn",function(req,res){
         });
 });
 
-app.get("/update", function (req, res) { // 修正
-    //activities[0].activity = req.body.updatedActivity;
+app.post("/update", function (req, res) { // 修正
+    activities[0].activity = req.body.updatedActivity;
     res.send(activities);
 });
 
