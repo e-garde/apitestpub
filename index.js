@@ -38,7 +38,7 @@ app.post("/orders/status", function (req, res) { // 修正
     console.log("reqの中身",req)
     console.log("req.bodyの中身",req.body)
     //res.send(activities);
-    res.send(req.body);
+    res.send(req.body.id);
 });
 
 
