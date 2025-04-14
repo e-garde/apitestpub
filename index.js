@@ -6,11 +6,10 @@ const activities = require("./activities.json");
 
 
 
-/*
+
 app.get("/",function(req,res){
     res.sendFile(__dirname + "/index.html");
 });
-*/
 
 //const coronaData = require("./coronaData.json");
 const orderData = require("./orders.json");
