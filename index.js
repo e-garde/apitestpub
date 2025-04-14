@@ -33,6 +33,12 @@ app.post("/update", function (req, res) { // 修正
     res.send(activities);
 });
 
+app.post("/orders/status", function (req, res) { // 修正
+    //activities[0].activity = req.body.updatedActivity;
+    res.send(activities);
+});
+
+
 app.post("/delete", function (req, res) {
     activities.splice(req.body.number, 1);
     res.send(activities);
