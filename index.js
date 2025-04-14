@@ -35,8 +35,9 @@ app.post("/update", function (req, res) { // 修正
 
 app.post("/orders/status", function (req, res) { // 修正
     //activities[0].activity = req.body.updatedActivity;
-    //res.send(activities);
-    res.send(req.body);
+    console.debug(req.body)
+    res.send(activities);
+    //res.send(req.body);
 });
 
 
